@@ -1,0 +1,145 @@
+@use "reset";
+
+body{
+ 
+}
+
+header {
+
+    .container {
+        background-color: rgb(144, 193, 46);
+  
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            figure {
+
+                img {
+                    width: 20vw;
+                    border-radius: 2rem;
+                }
+            }
+
+            nav {
+
+                ul {
+                    display: flex;
+                    margin-right: 10rem;
+
+                    li {
+                        
+                        display: inline;
+                        padding: 0 2rem;
+
+                        a {
+                            color: aliceblue;
+                            font-size: 3rem;
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            &:hover{
+                                text-decoration: underline overline;
+                                
+                                color: blue;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+main {
+
+    
+margin: 20rem ;
+
+    h1 {
+        text-align: center;
+        font-size: 10vw;
+        text-transform: capitalize;
+        text-shadow: rgb(8, 0, 255) 1rem 2rem 1rem;
+    }
+
+    .container {
+      
+       
+
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 2rem;
+            figure{
+                justify-content: center;
+                margin: auto;
+
+                .rt {
+                    margin:0 auto;
+                    width: 40vw;
+                    border-radius: 5rem;
+                    transform: scaleX(-1)
+                }
+    
+                .kt {
+                    margin:0 auto;
+                    width: 40vw;
+                    border-radius: 5rem;
+                }
+            }
+            
+
+
+            h2 {
+                margin:0 2rem;
+                font-size: 10vw;
+                color: rgb(235, 228, 228);
+                text-shadow: rgb(253, 0, 0) 1rem 1rem 1rem;
+            }
+        }
+
+    }
+}
+
+footer {
+    .container {
+        background-color: darkgreen;
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            figure {
+                img {
+                    width: 10vw;
+                    border-radius: 2rem;
+                }
+            }
+
+            nav {
+
+                i {
+
+                    padding: 2rem;
+
+                    a {
+                        text-transform: uppercase;
+                        color: azure;
+                        text-decoration: none;
+                        font-size: 5rem;
+
+                        &:hover {
+                            color: aqua;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

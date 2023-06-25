@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+header .container {
+  background-color: rgb(144, 193, 46);
+}
+header .container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .row figure img {
+  width: 20vw;
+  border-radius: 2rem;
+}
+header .container .row nav ul {
+  display: flex;
+  margin-right: 10rem;
+}
+header .container .row nav ul li {
+  display: inline;
+  padding: 0 2rem;
+}
+header .container .row nav ul li a {
+  color: aliceblue;
+  font-size: 3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header .container .row nav ul li a:hover {
+  text-decoration: underline overline;
+  color: blue;
+}
+
+main {
+  margin: 20rem;
+}
+main h1 {
+  text-align: center;
+  font-size: 10vw;
+  text-transform: capitalize;
+  text-shadow: rgb(8, 0, 255) 1rem 2rem 1rem;
+}
+main .container .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+main .container .row figure {
+  justify-content: center;
+  margin: auto;
+}
+main .container .row figure .rt {
+  margin: 0 auto;
+  width: 40vw;
+  border-radius: 5rem;
+  transform: scaleX(-1);
+}
+main .container .row figure .kt {
+  margin: 0 auto;
+  width: 40vw;
+  border-radius: 5rem;
+}
+main .container .row h2 {
+  margin: 0 2rem;
+  font-size: 10vw;
+  color: rgb(235, 228, 228);
+  text-shadow: rgb(253, 0, 0) 1rem 1rem 1rem;
+}
+
+footer .container {
+  background-color: darkgreen;
+}
+footer .container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .row figure img {
+  width: 10vw;
+  border-radius: 2rem;
+}
+footer .container .row nav i {
+  padding: 2rem;
+}
+footer .container .row nav i a {
+  text-transform: uppercase;
+  color: azure;
+  text-decoration: none;
+  font-size: 5rem;
+}
+footer .container .row nav i a:hover {
+  color: aqua;
+}
+
+/*# sourceMappingURL=main.css.map */
